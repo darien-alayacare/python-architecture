@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-architecture"
+version = "0.1.0"
+description = "Pet project to try architectural concepts"
+authors = ["darien-alayacare <darien.nieves@alayacare.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "latest"
+Flask = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
